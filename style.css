@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Menu */
+  #navbar {
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 8px;
+    justify-content: center;
+    font-size: large;
+  }
+  
+  #navbar ul li {
+    margin: 0 15px;
+  }
+  
+  #navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  #navbar ul li a:hover {
+    color: #333;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Change navbar background on scroll */
+  #navbar.scrolled {
+    background-color: #555;
+  }
+  
+  /* Landing Page Sections */
+  .section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  #home {
+    background-color: #f4f4f4;
+  }
+  
+  #about {
+    background-color: #e2e2e2;
+  }
+  
+  #services {
+    background-color: #d1d1d1;
+  }
+  
+  #contact {
+    background-color: #c1c1c1;
+  }
